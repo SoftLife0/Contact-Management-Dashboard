@@ -1,0 +1,40 @@
+
+.elipse {
+    border-radius: 50%; 
+    width:80px; 
+    height: 80px;
+    background: #fff;
+}
+.nav-link {
+    display: flex;
+    align-items: center;
+}
+.circle {
+    height: 80px;
+    width: 80px;
+    background: #f2f2f2;
+    color: #992621;
+    border-radius: 50%;
+    padding-top: 15px;
+    margin-bottom: 4vh;
+    
+}
+.elipse img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    
+}
+.circle-active {
+    height: 80px;
+    width: 80px;
+    background: #992621;
+    color: #fff;
+    border-radius: 50%;
+    padding-top: 15px;
+    margin-bottom: 4vh;
+}
+.middle {
+    margin-top: 5vh;
+    padding-left: 3vw;
+}
