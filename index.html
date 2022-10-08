@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Staff Phonebook System</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+  <body>
+        
+        <nav class="navbar navbar-expand-lg" style="background: #992621; color: #fff; margin: 15px 15px; border-radius: 5px;"    >
+            <div class="container-fluid"> 
+                <div style="display: flex;">
+                    <div class="elipse" style="border-radius: 50%; width:70px; height: 70px;">
+                        <img src="memoji.png" alt="" width="100%" style="width: 70px; height: 70px; border-radius: 50%;">
+                    </div> 
+                    <div style="padding: 0 15px;">
+                        <h4><b>Onikosi Adewale</b></h4>
+                        <h6>Administrator</h6>
+                    </div>
+                </div>
+                
+     
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="nav-menu">
+                    <ul class="navbar-nav ">
+                        <div>
+                            <button style="display: flex; background: #800000; color: #fff; margin: 8px 10px; padding: 8px 20px; border-radius: 5px;  border: none; ">
+                                <i class='bx bxs-bell-ring icon' style="padding-top: 3px;"></i>                                                        
+                                <h6 style="font-size: 17px; font-weight: 600; padding-left: 7px;">Notifications</h6> 
+                            </button>
+                        </div>
+                        <div>
+                            <button style="display: flex; background: #800000; color: #fff; margin: 8px 10px; padding: 8px 20px; border-radius: 5px;  border: none;      ">
+                                <i class='bx bx-brightness icon' style="padding-top: 3px;"></i>                                                        
+                                <h6 style="font-size: 17px; font-weight: 600; padding-left: 7px;">Settings</h6> 
+                            </button>
+                        </div>
+                        <div>
+                            <button style="display: flex; background: #800000; color: #fff; margin: 8px 10px; padding: 8px 20px; border-radius: 5px;  border: none; ">
+                                <i class='bx bx-log-in icon' style="padding-top: 3px;"></i>                                                        
+                                <h6 style="font-size: 17px; font-weight: 600; padding-left: 7px;">Log out</h6> 
+                            </button>
+                        </div>
+
+                    </ul>
+                            
+                </div>
+                    
+            </div>
+        </nav>
+
+        <section>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-1 text-center" style="margin-top: 5vh;">
+                        <a href="">
+                            <div class="circle-active">
+                                <i class='bx bxs-dashboard icon'></i>
+                                <h6 style="font-size: 14px;"><b>Dashboard</b> </h6>
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="circle">
+                                <i class='bx bx-user icon'></i>
+                                <h6 style="font-size: 14px;"><b>Profile</b> </h6>
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="circle">
+                                <i class='bx bxs-edit icon'></i>
+                                <h6 style="font-size: 14px;"><b>Update Profile</b> </h6>
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="circle">
+                                <i class='bx bxs-bell-ring icon'></i>
+                                <h6 style="font-size: 14px;"><b>News</b> </h6>
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="circle">
+                                <i class='bx bx-brightness icon'></i>
+                                <h6 style="font-size: 14px;"><b>Settings</b> </h6>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-11">
+                        <div class="middle">
+                            <div style="display: flex; margin-bottom: 7vh; ">
+                                <h3 style=" font-family: Alkalami; font-size: 32px; padding-right: 25px; color: #992621;"><b>Staff Information System</b></h3>
+                                <!-- <h6 class="text-muted" style="font-size: 28px; padding-top: 2px;"><b>250</b></h6> -->
+                            </div>
+                        </div>  
+
+<!-- 
+                            <div class="card">
+                                <div class="card-body d-flex">
+                                    
+                                    <div class="btn-toolbar justify-content-between" role="toolbar" aria-label="Toolbar with button groups">
+                                        <div class="btn-group" role="group" aria-label="First group">
+                                          
+                                          <input type="search" name="" id="" placeholder="Search by name, email..." style=" border-radius: 5px;">
+                                          <select class="form-select form-select-sm" aria-label=".form-select-sm example" style="margin: 0 20px;">
+                                            <option selected>Position</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                          </select>
+                                        </div>
+
+                                        <div class="input-group">
+                                            <button style="display: flex; background: #800000; color: #fff; margin: 0 20px; padding: 8px 20px; border-radius: 5px;  border: none; ">
+                                                Add new Staff
+                                            </button>
+                                            <button style="display: flex; background: #800000; color: #fff; margin: 0 20px; padding: 8px 20px; border-radius: 5px;  border: none; ">
+                                                View Recent Staff
+                                            </button>
+                                           
+                                        </div>
+                                    </div> 
+                                </div>
+                            </div> -->
+
+                            <div class="container justify-content-center d-flex" style="margin-bottom: 5vh;">
+                                <div class="row row-cols-1 row-cols-md-4 g-3">
+                                    <div class="col-md-4" data-aos="fade-up" data-aos-duration="1500" style="width: 400px;">
+                                        <div class="card-body">
+                                            <div class="card h-100" style="  background: #992621; color: #fff; padding: 30px 20px; margin-bottom: 0;">
+                                                <div class="elipse" style="margin:0 auto;">
+                                                    <img src="memoji.png" alt="" width="100%" >
+                                                </div>
+                                                <div style="text-align: center; padding: 20px 0; font-family: Alkalami;">
+                                                    <h4><b>Jane Cooper</b></h4>
+                                                    <h6 style="font-size: 18px;">Vice Chancellor</h6>
+                                                </div>
+                                                <div style="text-align: center;">
+                                                    <button style="padding: 5px 15px; font-size: 18px; border: none; border-radius: 5px;"> View Profile </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4" data-aos="fade-up" data-aos-duration="1500" style="width: 400px;">
+                                        <div class="card-body">
+                                            <div class="card h-100" style="  background: #992621; color: #fff; padding: 30px 20px; margin-bottom: 0;">
+                                                <div class="elipse" style="margin:0 auto;">
+                                                    <img src="memoji.png" alt="" width="100%" >
+                                                </div>
+                                                <div style="text-align: center; padding: 20px 0; font-family: Alkalami;">
+                                                    <h4><b>Wade Warren</b></h4>
+                                                    <h6 style="font-size: 18px;">Pro Vice Chancellor</h6>
+                                                </div>
+                                                <div style="text-align: center;">
+                                                    <button style="padding: 5px 15px; font-size: 18px; border: none; border-radius: 5px;"> View Profile </button>
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4" data-aos="fade-up" data-aos-duration="1500" style="width: 400px;">
+                                        <div class="card-body">
+                                            <div class="card h-100" style="  background: #992621; color: #fff; padding: 30px 20px; margin-bottom: 0;">
+                                                <div class="elipse" style="margin:0 auto;">
+                                                    <img src="memoji.png" alt="" width="100%" >
+                                                </div>
+                                                <div style="text-align: center; padding: 20px 0; font-family: Alkalami;">
+                                                    <h4><b>Ralph Edwards</b></h4>
+                                                    <h6 style="font-size: 18px;">IT Directorate</h6>
+                                                </div>
+                                                <div style="text-align: center;">
+                                                    <button style="padding: 5px 15px; font-size: 18px; border: none; border-radius: 5px;"> View Profile </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                
+                            </div>
+                              
+                                
+
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
